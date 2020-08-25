@@ -16,7 +16,8 @@
   "scripts": {
     "clean": "rimraf ./dist/*",
     "develop": "babel src --out-dir dist --watch --extensions '.js' --ignore 'src/**/*.spec.js'",
-    "build": "NODE_ENV=production babel src -d dist --ignore 'src/**/*.spec.js'"
+    "build": "NODE_ENV=production babel src -d dist --ignore 'src/**/*.spec.js'",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@commitlint/cli": "10.0.0",
