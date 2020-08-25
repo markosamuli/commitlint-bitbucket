@@ -1,17 +1,17 @@
 {
-  "name": "commitlint-bitbucket-cli",
+  "name": "@markosamuli/commitlint-bitbucket-cli",
   "version": "0.0.1",
   "description": "Lint commits on Bitbucket Pipelines",
   "author": {
-    "name": "Marko Samuli Kirves",
-    "email": "hello@msk.io"
+      "name": "Marko Samuli Kirves",
+      "email": "hello@msk.io"
   },
   "license": "MIT",
   "files": [
     "dist/"
   ],
   "bin": {
-    "commitlint-bitbucket": "./bin/commitlint-bitbucket"
+    "commitlint-bitbucket": "bin/commitlint-bitbucket"
   },
   "scripts": {
     "clean": "rimraf ./dist/*",
@@ -33,5 +33,18 @@
     "@babel/preset-env": "7.11.0",
     "@commitlint/config-conventional": "9.1.2",
     "rimraf": "3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markosamuli/commitlint-bitbucket-cli.git"
+  },
+  "keywords": [
+    "commitlint",
+    "bitbucket",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/markosamuli/commitlint-bitbucket-cli/issues"
+  },
+  "homepage": "https://github.com/markosamuli/commitlint-bitbucket-cli#readme"
 }
